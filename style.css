@@ -1,0 +1,109 @@
+/* General Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero{
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+/* Cards */
+.card{
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+/* Carousel Images */
+.carousel-item img{
+    object-fit: cover;
+}
+
+/* Statistics Section */
+.bg-light h1{
+    font-weight: bold;
+}
+
+/* Forms */
+.form-control,
+.form-select{
+    border-radius: 8px;
+}
+
+.btn{
+    border-radius: 8px;
+}
+
+/* Images */
+img{
+    max-width: 100%;
+}
+
+/* Footer */
+footer{
+    margin-top: 30px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+/* About Page Image */
+.rounded-circle{
+    object-fit: cover;
+}
+
+/* Contact Page */
+iframe{
+    border: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media(max-width:768px){
+
+.hero{
+    min-height: 300px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1{
+    font-size: 2rem;
+}
+
+.carousel-item img{
+    height: 250px !important;
+}
+
+}
