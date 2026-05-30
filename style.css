@@ -61,10 +61,10 @@ body{
 }
 
 .btn{
-    border-radius: 8px;
+    border-radius: px;
 }
 
-/* Images */
+/*img*/
 img{
     max-width: 100%;
 }
